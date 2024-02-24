@@ -1,0 +1,290 @@
+body {
+    overflow-x: hidden;
+    color: #4f4f4f;
+    font-family: 'Montserrat', sans-serif;;
+}
+nav{
+    background-color: #99c63f;
+}
+
+.onamaTekst{
+    font-size: 1.2em;
+}
+.photo-gallery img{
+    height: 250px;
+    width: 100%;
+    object-fit:cover;
+  }
+
+.dugmePonuda{
+    background-color: #99c63f;
+    border-radius: 7px;
+    width: 80px;
+    margin-left:10px;
+}
+.dugmePonuda:hover{
+    transform: scale(1.1);
+}
+.dugmeServis:hover{
+    color:red !important;
+}
+.rezervacija:hover{
+    color:red !important;
+}
+.dugmeIzlaz{
+    width: 150px;
+}
+
+.dugmePonuda a:hover{
+   color: red !important;
+   
+}
+.dugmeIzlaz a{
+    text-decoration: none;
+    color:black;
+}
+.dugmeIzlaz a:hover{
+    color: red !important;
+}
+.poseta img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.photo-gallery img{
+    border-radius: 5px;
+    
+}
+.ponudaText, .posetaText{
+    font-size:1.2em;
+}
+.dugmePonuda a{
+    text-decoration: none;
+    color:black;
+}
+ul.navbar-nav>li>a {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    color:#4f4f4f;
+}
+ul.navbar-nav>li>a:hover{
+    color:red;
+}
+
+ul.navbar-brand>li>a {
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #818963;
+
+}
+
+ul.navbar a.nav-link.active {
+    color: blue;
+}
+
+.navbar-brand {
+    color: #6b6b61;
+
+}
+
+footer ul li {
+    float: left;
+    margin: 5px;
+}
+.sajtMapa ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.sajtMapa ul a{
+    
+    line-height: 1.9em;
+    text-decoration: none;
+    color:#6b6b61;
+    font-size: 1.5em;
+}
+.dugmeZaKontakt{
+    background-color: #99c63f;
+    color:#4f4f4f;
+}
+.dugmeZaKontakt:hover{
+   color:red;
+   background-color: #99c63f;
+   transform: scale(1.1);
+}
+
+/*pocetna*/
+@media screen and (max-width: 780px) {
+    #carouselExampleDark {
+        max-height: 300px;
+    }
+
+    #carouselExampleDark img {
+        max-height: 300px;
+    }
+
+    #headerSlika img {
+        max-height: 300px;
+    }
+}
+
+
+.carousel-control-prev-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.carousel-control-next-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+#proizvodi .container .card {
+    border: none;
+}
+
+#proizvodi .container .card-text {
+    text-align: center;
+}
+
+#proizvodi .card-img-top {
+    height: 150px;
+    width: 9rem;
+}
+
+#prodavnica img {
+    height: 300px;
+    width: 100% !important;
+    object-fit: cover;
+}
+
+#prodavnica .container .card {
+    color: #4f4f4f;
+}
+
+/*O nama*/
+#onama .container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+/*prodavnica*/
+#prodavnica img {
+    width: 100px;
+    margin: auto;
+}
+
+.overlay:hover {
+    transition: .3s ease;
+    box-shadow: 0 0 0 3px rgb(0 0 0 / 20%)
+}
+
+/*galerija*/
+#galerija .container {
+    padding-bottom: 20px;
+}
+
+#galerija img {
+    height: 100%;
+}
+
+.photo-gallery {
+    color: #4f4f4f;
+    background-color: white;
+}
+
+.photo-gallery .photos {
+    padding-bottom: 0px;
+}
+
+.photo-gallery .item {
+    margin: 5px;
+}
+
+/*novosti*/
+#novosti a {
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+/*kontakt*/
+#kontakt ul li {
+    font-size: large;
+    margin: 20px;
+}
+
+/*mapa*/
+#mapa ul li a {
+    color: #4f4f4f;
+}
+
+/*CSS Grid*/
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.textNaslov{
+    font-size: 1.17em;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #99c63f;
+    box-shadow: none;
+}
+
+footer{
+    text-align: center !important;
+}
