@@ -1,25 +1,17 @@
-# Bootstrap Machine Sales Platform
+# Machine Sales Platform
 
-Welcome to the Bootstrap Machine Sales Platform! This web site provides a user-friendly platform for buying and selling various types of machinery, utilizing Bootstrap for sleek and responsive design.
+Welcome to the Machine Sales Platform! This web site provides a user-friendly platform for buying and selling various types of machinery, utilizing Bootstrap for sleek and responsive design.
 
 ## Features
 
 - Listings of available machinery for sale.
 - Detailed product pages with images and specifications.
-- User profile management for sellers and buyers.
 - Responsive design for optimal viewing on desktop and mobile devices.
 
 ## Technologies Used
 
 - HTML, CSS, and JavaScript for front-end development.
 - Bootstrap framework for responsive design and UI components.
-
-## Installation
-
-1. Clone the repository to your local machine.
-2. Install dependencies using package manager of your choice.
-3. Configure backend server and database settings.
-4. Run the application locally.
 
 ## Usage
 
